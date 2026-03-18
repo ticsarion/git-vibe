@@ -1,0 +1,23 @@
+{
+  "name": "git-vibe",
+  "version": "1.0.0",
+  "description": "AI-powered conventional commit message generator",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "git-vibe": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
