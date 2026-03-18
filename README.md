@@ -15,7 +15,7 @@ Say goodbye to "update stuff" and "fix bug" commit messages. **git-vibe** reads 
 Install globally using npm:
 
 ```bash
-npm install -g git-vibe
+npm install -g @ticsarion/git-vibe
 ```
 
 ## 🚀 Usage
