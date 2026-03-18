@@ -16,41 +16,44 @@ Install globally using npm:
 
 ```bash
 npm install -g git-vibe
+```
 
-🚀 Usage
+## 🚀 Usage
+
 Using git-vibe is easy! Just follow these steps:
 
-Stage your changes as usual:
+1. Stage your changes as usual:
+   ```bash
+   git add .
+   ```
+2. Run git-vibe:
+   ```bash
+   git vibe
+   ```
+3. Look for the ✨ magic!
 
-Bash
-git add .
-Run git-vibe:
+   ```text
+   ◇  git-vibe - AI Commit Generator
+   │
+   ◇  Analyzing git diff...
+   │
+   ◇  Suggested Commit Message:
+   │  feat: add interactive UI with clack prompts
+   │
+   ◇  Do you want to commit with this message?
+   │  > Accept & Commit
+   │    Edit Message
+   │    Cancel
+   ```
 
-Bash
-git vibe
-Look for the ✨ magic!
-
-Bash
-◇  git-vibe - AI Commit Generator
-│
-◇  Analyzing git diff...
-│
-◇  Suggested Commit Message:
-│  feat: add interactive UI with clack prompts
-│
-◇  Do you want to commit with this message?
-│  > Accept & Commit
-│    Edit Message
-│    Cancel
-🔑 Setup
+## 🔑 Setup
 You need a free Gemini API key from Google AI Studio.
 
-Get your key: Visit Google AI Studio and create a free API key.
+1. **Get your key:** Visit [Google AI Studio](https://aistudio.google.com/) and create a free API key.
+2. **Configure:** Create a `.env` file in your project root and add your key:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-Configure: Create a .env file in your project root and add your key:
-
-Code snippet
-GEMINI_API_KEY=your_gemini_api_key_here
-That's it! Now you can vibe with your commits.
-
-Built with ❤️ and AI.
+---
+*Built with ❤️ and AI.*
